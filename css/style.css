@@ -401,6 +401,31 @@ area
 }
 
 
+/* --------------------------------
+area
+-------------------------------- */
+#service-top {
+  height: 500px;
+  background-image: url(../img/construction_02.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#service-top .service-title {
+  position: absolute;
+  bottom: 20%;
+  left: 60px;
+  color: var(--base);
+}
+#service-top .service-title .en {
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-top: 10px;
+
+}
+
 
 
 /* --------------------------------
