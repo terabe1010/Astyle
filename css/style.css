@@ -43,6 +43,11 @@ li {
   padding: 0 16px;
   margin: 0 auto;
 }
+.wrapper-02  {
+  max-width: 800px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
 .sec-title {
   text-align: center;
   font-size: 2rem;
@@ -547,6 +552,114 @@ maker
 }
 #maker .list .item {
   width: 250px;
+}
+
+
+/* --------------------------------
+company-top
+-------------------------------- */
+#company-top {
+  height: 400px;
+  background-image: url(../img/osaka_01.png);
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+}
+#company-top .service-title {
+  position: absolute;
+  bottom: 20%;
+  left: 60px;
+  color: var(--base);
+}
+#company-top .service-title .en {
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-top: 10px;
+
+}
+
+/* --------------------------------
+message
+-------------------------------- */
+#message {
+  margin-bottom: 80px;
+}
+#message .flex {
+  display: flex;
+  margin-bottom: 50px;
+  height: 400px;
+}
+#message .flex .info {
+  width: 50%;
+}
+#message .flex .info .title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+  border-left: 8px solid var(--main);
+  padding-left: 15px;
+}
+#message .flex .img {
+  width: 50%;
+  overflow: hidden;
+}
+#message .company-info .title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+  border-left: 8px solid var(--main);
+  padding-left: 15px;
+}
+
+
+
+/* --------------------------------
+faq
+-------------------------------- */
+#faq {
+  margin-bottom: 80px;
+}
+#faq .text {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+#faq .box {
+  margin-bottom: 40px;
+}
+#faq .link {
+  text-align: center;
+}
+#faq .link .btn {
+  font-size: 1.5rem;
+  padding: 20px 120px;
+  background-color: var(--accent);
+  display: inline-block;
+  position: relative;
+  color: var(--base);
+}
+#faq .link .btn:hover {
+  background-color: var(--base);
+  color: var(--text);
+  border: 1px solid var(--text);
+}
+#faq .link .btn::after {
+    content: "";
+    width: 14px;
+    height: 14px;
+    border-top: 1px solid var(--base);
+    border-right: 1px solid var(--base);
+    position: absolute;
+    top: 31px;
+    right: 56px;
+    transform: rotate(45deg);
+    transition: ease 0.3s;
+}
+#faq .link .btn:hover::after {
+  right: 30px;
+  border-top: 1px solid var(--text);
+  border-right: 1px solid var(--text);
 }
 
 
