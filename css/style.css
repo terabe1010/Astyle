@@ -672,6 +672,7 @@ faq
   font-size: 1.2rem;
   font-weight: 600;
   display: block;
+  margin-bottom: 15px;
 }
 #faq .box {
   margin-bottom: 40px;
@@ -1256,6 +1257,45 @@ SP
   #flow .flex {
     flex-direction: column;
     margin-left: 30px;
+  }
+
+
+  /* --------------------------------
+  company-top
+  -------------------------------- */
+  #company-top {
+    height: 300px;
+  }
+  #company-top .service-title {
+    font-size: 1.7rem;
+    bottom: 10%;
+    left: 40px;
+  }
+
+  /* --------------------------------
+  message
+  -------------------------------- */
+
+  #message .flex {
+    flex-direction: column;
+    height: auto;
+  }
+  #message .flex .info {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #message .flex .img {
+    width: 100%;
+  }
+
+  /* --------------------------------
+  faq
+  -------------------------------- */
+  #faq .link .btn {
+    padding: 15px 80px;
+  }
+  #faq .link .btn::after {
+    top: 27px;
   }
 
   /* --------------------------------
