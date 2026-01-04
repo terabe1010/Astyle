@@ -15,7 +15,6 @@ $(".slider").slick({
       slidesToShow: 1,
       centerMode: false,
       centerPadding: '0',
-      speed: 600,
       arrows: false,
       dots: false,
     },
