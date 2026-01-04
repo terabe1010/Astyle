@@ -102,21 +102,41 @@
   <main>
     <div id="mainvisual">
       <ul class="slider">
-        <ii class="item">
-          <img class="slider-img" src="./img/osaka_02.png" alt="">
-        </ii>
-        <ii class="item">
-          <img class="slider-img" src="./img/office_01.png" alt="">
-        </ii>
-        <ii class="item">
-          <img class="slider-img" src="./img/city_01.png" alt="">
-        </ii>
-        <ii class="item">
-          <img class="slider-img" src="./img/dust_01.png" alt="">
-        </ii>
-        <ii class="item">
-          <img class="slider-img" src="./img/shop_02.png" alt="">
-        </ii>
+        <li class="item">
+          <picture>
+            <!-- スマホ用 -->
+            <source
+              media="(max-width: 768px)"
+              srcset="./img/osaka_02.png">
+
+            <!-- PC用（デフォルト） -->
+            <img class="slider-img" src="./img/osaka_02.png" alt="">
+          </picture>
+        </li>
+        <li class="item">
+          <picture>
+            <source media="(max-width: 768px)" srcset="./img/office_01.png">
+            <img class="slider-img" src="./img/office_01.png" alt="">
+          </picture>
+        </li>
+        <li class="item">
+          <picture>
+            <source media="(max-width: 768px)" srcset="./img/city_01.png">
+            <img class="slider-img" src="./img/city_01.png" alt="">
+          </picture>
+        </li>
+        <li class="item">
+          <picture>
+            <source media="(max-width: 767px)" srcset="./img/dust_01.png">
+            <img class="slider-img" src="./img/dust_01.png" alt="">
+          </picture>
+        </li>
+        <li class="item">
+          <picture>
+            <source media="(max-width: 767px)" srcset="./img/shop_02.png">
+            <img class="slider-img" src="./img/shop_02.png" alt="">
+          </picture>
+        </li>
       </ul>
 
       <h2 class="concept-title">
@@ -132,7 +152,7 @@
           防犯カメラの「選定・設置・設定」まで一貫対応
         </h2>
         <p class="text">
-          個人宅・店舗・事務所・倉庫など用途に合わせた最適なプランをご提案いたします。 <br>
+          個人宅・店舗・事務所・倉庫など用途に合わせた最適なプランをご提案いたします。 <br class="br-pc">
           小規模案件から、まずは1台の取付相談まで、お気軽にお問い合わせください。
         </p>
         <ul class="list">
@@ -165,7 +185,7 @@
                 1. 現場経験に基づく確かな施工
               </p>
               <p class="comment">
-                代表自身が現場調査から施工まで担当するため、<br>
+                代表自身が現場調査から施工まで担当するため、<br class="br-pc">
                 ムダのないわかりやすい提案が可能です。
               </p>
             </div>
@@ -173,7 +193,7 @@
               <img src="./img/construction_02.png" alt="">
             </div>
           </div>
-          <div class="flex">
+          <div class="flex reverse">
             <div class="img js-fadeUp">
               <img src="./img/guidance_01.png" alt="">
             </div>
@@ -182,7 +202,7 @@
                 2. 予算に合わせた柔軟なプラン
               </p>
               <p class="comment">
-                高品質カメラからコスト重視のモデルまで、<br>
+                高品質カメラからコスト重視のモデルまで、<br class="br-pc">
                 目的に合わせた最適な機種をご提案。
               </p>
             </div>
@@ -193,7 +213,7 @@
                 3. アフターフォローも丁寧に対応
               </p>
               <p class="comment">
-                使い方の説明／設定変更／トラブル対応など、<br>
+                使い方の説明／設定変更／トラブル対応など、<br class="br-pc">
                 設置後も安心してお任せいただけます。
               </p>
             </div>

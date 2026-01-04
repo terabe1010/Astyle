@@ -66,7 +66,12 @@ li {
   background: var(--gray-bg);
   padding: 60px 0;
 }
-
+.br-sp {
+  display: none;
+}
+.br-pc {
+  display: block;
+}
 
 /* --------------------------------
 header
@@ -280,19 +285,17 @@ mainvisual
   position: relative;
 }
 #mainvisual .concept-title {
-    font-size: 2.5rem;
-    position: absolute;
-    bottom: 20%;
-    right: 0;
-    left: 50px;
-    line-height: 70px;
-    letter-spacing: 0rem;
-    color: #fff;
-    text-shadow: 0px 0px 10px #000;
+  font-size: 2.5rem;
+  position: absolute;
+  bottom: 20%;
+  right: 0;
+  left: 50px;
+  line-height: 70px;
+  letter-spacing: 0rem;
+  color: #fff;
+  text-shadow: 0px 0px 10px #000;
 }
-#mainvisual .concept-title .br-sp {
-  display: none;
-}
+
 
 /* --------------------------------
 nav-menu
@@ -344,6 +347,7 @@ top-pr
 #top-pr .text {
   font-size: 1.25rem;
   margin-bottom: 60px;
+  line-height: 35px;
 }
 #top-pr .list {
   display: flex;
@@ -370,16 +374,16 @@ top-pr
   border: 1px solid var(--text);
 }
 #top-pr .link .btn::after {
-    content: "";
-    width: 14px;
-    height: 14px;
-    border-top: 1px solid var(--base);
-    border-right: 1px solid var(--base);
-    position: absolute;
-    top: 31px;
-    right: 56px;
-    transform: rotate(45deg);
-    transition: ease 0.3s;
+  content: "";
+  width: 14px;
+  height: 14px;
+  border-top: 1px solid var(--base);
+  border-right: 1px solid var(--base);
+  position: absolute;
+  top: 31px;
+  right: 56px;
+  transform: rotate(45deg);
+  transition: ease 0.3s;
 }
 #top-pr .link .btn:hover::after {
   right: 30px;
@@ -405,7 +409,6 @@ strength
 #strength .flex .text {
   width: 50%;
   padding-left: 60px;
-  
 }
 #strength .flex .text .title {
   font-size: 1.5rem;
@@ -754,9 +757,9 @@ TB
   /* html {
     font-size: 0.7407vw;
   } */
-  html {
+  /* html {
     font-size: 1.2vw;
-  }
+  } */
 
 
   /* --------------------------------
@@ -1029,18 +1032,36 @@ TB
   }
   #mainvisual .concept-title {
     font-size: 2.5rem;
-    line-height: 50px;
+    bottom: 10%;
   }
-}
 
+
+  /* --------------------------------
+  strength
+  -------------------------------- */
+  #strength .flex .text {
+    padding-left: 30px;
+    
+  }
+
+  /* --------------------------------
+  footer
+  -------------------------------- */
+  #footer .flex .contact, 
+  #footer .flex .info {
+    width: 35%;
+  }
+
+
+}
 
 /*-------------------------------------------
 SP
 -------------------------------------------*/
 @media screen and (max-width: 768px) {
-  html {
+  /* html {
     font-size: 2.6667vw;
-  }
+  } */
   .wrapper-02  {
     padding: 0 20px;
   }
@@ -1053,49 +1074,27 @@ SP
   .wrapper-04 {
     padding: 0 20px;
   } 
-  .page-title {
-    margin-bottom: 60px;
+  .sec-title {
     font-size: 1.5rem;
+    margin-bottom: 50px;
+    
   }
-  .page-sec-title {
-    font-size: 1.3rem;
-    border-left: 8px solid #137180;
-    padding-left: 15px;
-    line-height: 30px;
-    margin-bottom: 30px;
-  }
-  .contact-link .btn {
+  .sec-title .en {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
-    margin-bottom: 10px;
-    padding: 10px 40px 10px 10px;
-  }
-  .contact-link .btn::after {
-    width: 10px;
-    height: 10px;
-    top: 17px;
-    right: 23px;
-  }
-  .contact-link .btn:hover::after {
-    right: 30px;
-  }
-  .contact-link .tel-text {
-    font-size: 1rem;
-    line-height: 1.8;
-    margin-bottom: 15px;
-    color: #CB5338;
-  }
-  .contact-link .tel {
-    font-size: 1rem;
-  }
-    .br-pc {
-    display: none;
   }
 	
 	.loading__logo {
-  opacity: 0;
-  animation: logo_fade 2s 0.5s forwards;
-  width: 100px;
-}
+    opacity: 0;
+    animation: logo_fade 2s 0.5s forwards;
+    width: 100px;
+  }
+  .br-sp {
+    display: block;
+  }
+  .br-pc {
+    display: none;
+  }
 
   /* --------------------------------
   [SP]header
@@ -1133,11 +1132,68 @@ SP
   #mainvisual .concept-title {
     bottom: 32.5px;
     left: 20px;
+    font-size: 1.8rem;
+    line-height: 47px;
+  }
+
+  /* --------------------------------
+  top-pr
+  -------------------------------- */
+  #top-pr .list {
+    justify-content: space-between;
+  }
+  #top-pr .list .item {
+    width: 32%;
+  }
+  #top-pr .link .btn {
+    padding: 15px 80px;
+
+  }
+  #top-pr .link .btn::after {
+    top: 27px;
+  }
+  #top-pr .title {
     font-size: 1.5rem;
-    line-height: 35px;
   }
-  #mainvisual .concept-title .br-sp {
-    display: block;
+  #top-pr .text {
+    font-size: 1.1rem;
   }
+
+
+
+  /* --------------------------------
+  strength
+  -------------------------------- */
+
+  #strength .flex {
+    flex-direction: column;
+  }
+  #strength .flex .text .title {
+    font-size: 1.3rem;
+  }
+  #strength .flex .text {
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+  #strength .flex .img {
+    width: 100%;
+  }
+  #strength .flex.reverse {
+    flex-direction: column-reverse;
+  }
+
+  /* --------------------------------
+  footer
+  -------------------------------- */
+  #footer .flex {
+    flex-direction: column;
+    gap: 40px 0;
+  }
+  #footer .flex .contact, 
+  #footer .flex .info {
+    width: 100%;
+  }
+
 }
-  
+
