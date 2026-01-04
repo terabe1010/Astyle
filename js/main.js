@@ -140,53 +140,6 @@ $(function () {
 	});
 });
 
-/*=================================================
-フェードイン
-===================================================*/
-document.addEventListener('DOMContentLoaded', () => {
-  const elements = document.querySelectorAll('.js-scroll-fade');
 
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.1 });
-
-  elements.forEach(el => observer.observe(el));
-});
-
-
-$(window).on('scroll load', function() {
-  $('.js-zoom-fade').each(function() {
-    var imgTop = $(this).offset().top;
-    var scrollTop = $(window).scrollTop();
-    var windowHeight = $(window).height();
-
-    // 画像が画面内に入ったらアニメーション
-    if (scrollTop + windowHeight > imgTop + 100) {
-      $(this).css({
-        'transform': 'scale(1)',
-        'opacity': '1'
-      });
-    }
-  });
-});
-
-
-$(function() {
-  // 被害・対策、事業者情報にホバーした時
-  $('.item-wrap').on('mouseenter', function() {
-    $(this).find('.submenu').stop(true, true).slideDown(300);
-    $(this).find('.item').addClass('active');
-  });
-
-  $('.item-wrap').on('mouseleave', function() {
-    $(this).find('.submenu').stop(true, true).slideUp(300);
-    $(this).find('.item').removeClass('active');
-  });
-});
 
 

@@ -223,19 +223,47 @@ header
 /* --------------------------------
 animation
 -------------------------------- */
-.img-wrapper {
-  width: 100%;
-  height: 500px;
-  overflow: hidden;
-}
-.js-zoom-fade {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transform: scale(1.15); 
+.js-fadeUp {
+  transition: 2.0s;
   opacity: 0;
-  transition: transform 11s linear, opacity 2s ease-out;
-  display: block;
+  transform: translate(0,30px);
+  -webkit-transform: translate(0,30px);
+}
+.js-fadeUp.is-inview {
+  opacity: 1.0;
+  transform: translate(0,0);
+  -webkit-transform: translate(0,0);
+  transition-delay: 0.2s;
+}
+.js-fadeUp.is-inview.timing1 { 
+  transition-delay: .1s 
+} 
+.js-fadeUp.is-inview.timing2 { 
+  transition-delay: .2s 
+} 
+.js-fadeUp.is-inview.timing3 { 
+  transition-delay: .3s 
+} 
+.js-fadeUp.is-inview.timing4 { 
+  transition-delay: .4s 
+} 
+.js-fadeUp.is-inview.timing5 { 
+  transition-delay: .5s 
+} 
+.js-fadeUp.is-inview.timing6 { 
+  transition-delay: .6s 
+} 
+.js-fadeUp.is-inview.timing7 { 
+  transition-delay: .7s 
+} 
+.js-fadeUp.is-inview.timing8 { 
+  transition-delay: .8s 
+} 
+.js-fadeUp.is-inview.timing9 { 
+  transition-delay: .9s 
+}
+.js-fadeUp.is-inview.timing10 { 
+  transition-delay: 1.0s 
 }
 
 /* --------------------------------
@@ -252,7 +280,7 @@ mainvisual
   position: relative;
 }
 #mainvisual .concept-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     position: absolute;
     bottom: 20%;
     right: 0;
@@ -260,7 +288,6 @@ mainvisual
     line-height: 70px;
     letter-spacing: 0rem;
     color: #fff;
-    font-weight: normal;
     text-shadow: 0px 0px 10px #000;
 }
 
@@ -333,6 +360,7 @@ top-pr
   display: inline-block;
   position: relative;
   color: var(--base);
+  border: 1px solid var(--accent);
 }
 #top-pr .link .btn:hover {
   background-color: var(--base);
@@ -410,17 +438,19 @@ area
 service-top
 -------------------------------- */
 #service-top {
-  height: 500px;
+  height: 400px;
   background-image: url(../img/construction_02.png);
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   position: relative;
 }
 #service-top .service-title {
+  font-size: 2rem;
   position: absolute;
   bottom: 20%;
-  left: 60px;
+  left: 140px;
   color: var(--base);
+  text-shadow: 0px 0px 10px #000;
 }
 #service-top .service-title .en {
   font-family: Arial, Helvetica, sans-serif;
@@ -566,10 +596,12 @@ company-top
   position: relative;
 }
 #company-top .service-title {
+  font-size: 2rem;
   position: absolute;
   bottom: 20%;
-  left: 60px;
+  left: 140px;
   color: var(--base);
+  text-shadow: 0px 0px 10px #000;
 }
 #company-top .service-title .en {
   font-family: Arial, Helvetica, sans-serif;
@@ -605,6 +637,9 @@ message
   width: 50%;
   overflow: hidden;
 }
+#message .flex .info .text {
+  line-height: 30px;
+}
 #message .company-info .title {
   font-size: 1.5rem;
   margin-bottom: 20px;
@@ -612,7 +647,9 @@ message
   border-left: 8px solid var(--main);
   padding-left: 15px;
 }
-
+#message .company-info .text {
+  line-height: 30px;
+}
 
 
 /* --------------------------------
@@ -624,6 +661,7 @@ faq
 #faq .text {
   font-size: 1rem;
   margin-bottom: 60px;
+  line-height: 30px;
 }
 #faq .text .qa {
   font-size: 1.2rem;
@@ -643,6 +681,7 @@ faq
   display: inline-block;
   position: relative;
   color: var(--base);
+  border: 1px solid var(--accent);
 }
 #faq .link .btn:hover {
   background-color: var(--base);
@@ -703,37 +742,6 @@ footer
 
 
 
-
-/* --------------------------------
-fade
--------------------------------- */
-.js-fadeUp {
-  transition: 1.8s;
-  opacity: 0;
-  transform: translate(0,10px);
-  -webkit-transform: translate(0,10px);
-}
-.js-fadeUp.is-inview {
-  opacity: 1.0;
-  transform: translate(0,0);
-  -webkit-transform: translate(0,0);
-  transition-delay: 3.0s;
-}
-
-/* --------------------------------
-フェードイン
--------------------------------- */
-.js-scroll-fade {
-  opacity: 0;
-  transform: translateY(10px);
-  transition: opacity 1.8s cubic-bezier(.25,.8,.25,1) ,
-              transform 1.8s cubic-bezier(.25,.8,.25,1) ;
-  will-change: opacity, transform;
-}
-.js-scroll-fade.visible {
-  opacity: 1;
-  transform: translateY(0) scale(1);
-}
 
 
 
