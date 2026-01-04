@@ -692,6 +692,9 @@ footer
   margin-bottom: 20px;
   font-weight: 500;
 }
+#footer .flex .contact .text a {
+  color: var(--base);
+}
 #footer .copy {
   color: var(--text);
   margin: 20px 0;
