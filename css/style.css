@@ -1037,15 +1037,23 @@ TB
 
 
   /* --------------------------------
-  strength
+  [TB]strength
   -------------------------------- */
   #strength .flex .text {
     padding-left: 30px;
     
   }
+  /* --------------------------------
+  case
+  -------------------------------- */
+
+  #case .list .item .img {
+    width: 95%;
+  }
+
 
   /* --------------------------------
-  footer
+  [TB]footer
   -------------------------------- */
   #footer .flex .contact, 
   #footer .flex .info {
@@ -1137,7 +1145,7 @@ SP
   }
 
   /* --------------------------------
-  top-pr
+  [SP]top-pr
   -------------------------------- */
   #top-pr .list {
     justify-content: space-between;
@@ -1162,7 +1170,7 @@ SP
 
 
   /* --------------------------------
-  strength
+  [SP]strength
   -------------------------------- */
 
   #strength .flex {
@@ -1183,8 +1191,75 @@ SP
     flex-direction: column-reverse;
   }
 
+
   /* --------------------------------
-  footer
+  service-top
+  -------------------------------- */
+  #service-top {
+    height: 300px;
+  }
+  #service-top .service-title {
+    font-size: 1.7rem;
+    bottom: 10%;
+    left: 40px;
+  }
+
+
+  /* --------------------------------
+  service
+  -------------------------------- */
+  #service .flex {
+    flex-direction: column;
+    height: auto;
+  }
+  #service .flex .info {
+    width: 100%;
+  }
+  #service .flex .img {
+    width: 100%;
+  }
+  #service .flex .info .text {
+    margin-bottom: 20px;
+  }
+  #service .flex .img.flex .img-item {
+    width: 100%;
+  }
+
+
+
+  /* --------------------------------
+  [SP]case
+  -------------------------------- */
+  #case .list {
+    gap: 40px 0;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  #case .list .item {
+    width: 100%;
+  }
+
+
+  /* --------------------------------
+  price
+  -------------------------------- */
+
+  #price .flex {
+    flex-direction: column;
+    gap: 0 6%;
+    margin-left: 30px;
+  }
+
+  /* --------------------------------
+  flow
+  -------------------------------- */
+  #flow .flex {
+    flex-direction: column;
+    margin-left: 30px;
+  }
+
+  /* --------------------------------
+  [SP]footer
   -------------------------------- */
   #footer .flex {
     flex-direction: column;
