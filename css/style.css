@@ -1169,12 +1169,12 @@ SP
   #mainvisual .br-sp {
     display: block;
   }
-  #mainvisual .concept-title {
-    bottom: 32.5px;
-    left: 20px;
-    font-size: 1.8rem;
-    line-height: 47px;
-  }
+#mainvisual .concept-title {
+  bottom: 55.5px;
+  left: 20px;
+  font-size: 1.7rem;
+  line-height: 47px;
+}
 
   /* --------------------------------
   [SP]top-pr
