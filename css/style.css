@@ -359,6 +359,9 @@ top-pr
 #top-pr .list .item {
   width: 22%;
 }
+#top-pr .list .item .text {
+  margin-top: 20px;
+}
 #top-pr .link .btn {
   font-size: 1.5rem;
   padding: 20px 120px;
@@ -1198,7 +1201,10 @@ SP
   #top-pr .text {
     font-size: 1.1rem;
   }
-
+  #top-pr .list .item .text {
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
 
 
   /* --------------------------------
