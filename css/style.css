@@ -16,7 +16,7 @@ html {
   font-size: 100%;
 }
 body {
-  color: #030303;
+  color: var(--text);
   font-family: "Noto Sans", Arial, sans-serif;
   letter-spacing: .1em;
   background: var(--base);
