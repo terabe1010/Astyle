@@ -48,6 +48,11 @@ li {
   padding: 0 16px;
   margin: 0 auto;
 }
+.wrapper-03 {
+  max-width: 1800px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
 .sec-title {
   text-align: center;
   font-size: 2rem;
@@ -86,7 +91,7 @@ header
   background-color: rgba(255, 255, 255, 0.75);
   
 }
-#header .wrapper {
+#header .wrapper-03 {
   height: 80px;
   display: flex;
   justify-content: space-between;
@@ -773,8 +778,8 @@ TB
     padding: 0;
     height: 60px;
   }
-  #header .wrapper {
-    padding: 0 40px;
+  #header .wrapper-03 {
+    /* padding: 0 40px; */
     height: 60px;
   }
   #header .site-title {
