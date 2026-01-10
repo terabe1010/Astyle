@@ -676,14 +676,17 @@ faq
   margin-bottom: 60px;
   line-height: 30px;
 }
-#faq .text .qa {
-  font-size: 1.2rem;
-  font-weight: 600;
-  display: block;
-  margin-bottom: 15px;
-}
 #faq .box {
   margin-bottom: 40px;
+}
+#faq .box .title {
+  margin-bottom: 30px;
+}
+#faq .box .title .qa {
+  display: block;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
 }
 #faq .link {
   text-align: center;
@@ -1338,6 +1341,10 @@ SP
   }
   #faq .link .btn::after {
     top: 27px;
+  }
+  #faq .box .title .qa {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
   }
 
   /* --------------------------------
