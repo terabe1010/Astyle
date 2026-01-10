@@ -292,7 +292,7 @@ mainvisual
 #mainvisual .concept-title {
   font-size: 2.5rem;
   position: absolute;
-  bottom: 20%;
+  bottom: 9%;
   right: 0;
   left: 50px;
   line-height: 70px;
@@ -365,7 +365,7 @@ top-pr
   width: 22%;
 }
 #top-pr .list .item .text {
-  margin-top: 20px;
+  margin: 20px 0 0 0;
 }
 #top-pr .link .btn {
   font-size: 1.5rem;
@@ -425,7 +425,7 @@ strength
 }
 #strength .flex .img {
   width: 50%;
-  height: 300px;
+  height: 400px;
   overflow: hidden;
 }
 #strength .flex .img img {
@@ -1074,8 +1074,8 @@ TB
     height: 100vh;
   }
   #mainvisual .concept-title {
-    font-size: 2.5rem;
-    bottom: 10%;
+    font-size: 2.2rem;
+    bottom: 6%;
   }
 
 
@@ -1180,12 +1180,12 @@ SP
   #mainvisual .br-sp {
     display: block;
   }
-#mainvisual .concept-title {
-  bottom: 55.5px;
-  left: 20px;
-  font-size: 1.7rem;
-  line-height: 47px;
-}
+  #mainvisual .concept-title {
+    bottom: 55.5px;
+    left: 20px;
+    font-size: 1.7rem;
+    line-height: 47px;
+  }
 
   /* --------------------------------
   [SP]top-pr
@@ -1198,10 +1198,11 @@ SP
   }
   #top-pr .link .btn {
     padding: 15px 80px;
+    font-size: 1.2rem;
 
   }
   #top-pr .link .btn::after {
-    top: 27px;
+    top: 23px;
   }
   #top-pr .title {
     font-size: 1.5rem;
@@ -1236,6 +1237,14 @@ SP
   #strength .flex.reverse {
     flex-direction: column-reverse;
   }
+
+  /* --------------------------------
+  [SP]area
+  -------------------------------- */  
+  #area .flex {
+    flex-direction: column;
+  }
+
 
 
   /* --------------------------------
