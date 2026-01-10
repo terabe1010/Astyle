@@ -483,7 +483,7 @@ service
 }
 #service .flex {
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   height: 400px;
 }
 #service .flex .info {
@@ -1156,12 +1156,12 @@ SP
   #header .wrapper {
     padding: 0 16px;
   }
-  #header .hamburger {
+  /* #header .hamburger {
     right: 20px;
   }
   #js-fixed-header .hamburger {
     right: 20px;
-  }
+  } */
 
   /* --------------------------------
   [SP]スクロールダウン
