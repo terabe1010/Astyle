@@ -101,11 +101,6 @@ header
   width: 100px;
   line-height: 1px;
 }
-#header .site-title .logo-img {
-  max-width: 205px;
-}
-
-
 #nav .menu {
   list-style: none;
   margin: 0;
@@ -1404,6 +1399,9 @@ SP
   #message .staff .flex {
     gap: 45px 0%;
 
+  }
+  #message .staff .staff-member .img {
+    width: 70%;
   }
   #message .staff .staff-member .comment-title {
     max-width: 100%;
