@@ -624,6 +624,9 @@ business-supprt
   margin-bottom: 20px;
   font-weight: 500;
 }
+#business-supprt .list li {
+  list-style: disc;
+}
 #business-supprt ul.list {
   margin-bottom: 30px;
   font-weight: 500;
