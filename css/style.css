@@ -715,9 +715,6 @@ message
   margin: 0 auto 10px;
   max-width: 80%;
 }
-#message .staff .staff-member .img img {
-  height: 300px;
-}
 
 
 #message .company-info .text {
@@ -1308,7 +1305,7 @@ SP
 
 
   /* --------------------------------
-  service-top
+  [SP]service-top
   -------------------------------- */
   #service-top {
     height: 300px;
@@ -1321,7 +1318,7 @@ SP
 
 
   /* --------------------------------
-  service
+  [SP]service
   -------------------------------- */
   #service .flex {
     flex-direction: column;
@@ -1400,6 +1397,19 @@ SP
   }
   #message .flex .img {
     width: 100%;
+  }
+  #message .staff .staff-member {
+    width: 100%;
+  }
+  #message .staff .flex {
+    gap: 45px 0%;
+
+  }
+  #message .staff .staff-member .comment-title {
+    max-width: 100%;
+  }
+  #message .staff .staff-member .comment {
+    max-width: 100%;
   }
 
   /* --------------------------------
