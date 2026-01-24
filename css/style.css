@@ -599,6 +599,39 @@ maker
 
 
 /* --------------------------------
+business-supprt
+-------------------------------- */
+
+#business-supprt .it {
+  margin-bottom: 60px;
+}
+#business-supprt .text {
+  margin-bottom: 50px;
+}
+#business-supprt .title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+  border-left: 8px solid var(--main);
+  padding-left: 15px;
+}
+#business-supprt .heading {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+#business-supprt .caption {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+#business-supprt ul.list {
+  margin-bottom: 30px;
+  font-weight: 500;
+  list-style-type: disc;
+  margin-left: 30px;
+}
+
+/* --------------------------------
 company-top
 -------------------------------- */
 #company-top {
@@ -633,13 +666,13 @@ message
 }
 #message .flex {
   display: flex;
-  margin-bottom: 50px;
-  height: 400px;
+  margin-bottom: 80px;
+  /* height: 400px; */
 }
 #message .flex .info {
   width: 50%;
 }
-#message .flex .info .title {
+#message .title {
   font-size: 1.5rem;
   margin-bottom: 20px;
   font-weight: 500;
@@ -653,13 +686,37 @@ message
 #message .flex .info .text {
   line-height: 30px;
 }
-#message .company-info .title {
-  font-size: 1.5rem;
-  margin-bottom: 20px;
-  font-weight: 500;
-  border-left: 8px solid var(--main);
-  padding-left: 15px;
+#message .staff {
+  margin-bottom: 80px;
 }
+#message .staff .text {
+  margin-bottom: 40px;
+}
+#message .staff .flex {
+  display: flex;
+  gap: 0 3%;
+
+}
+#message .staff .staff-member {
+  width: 50%;
+}
+#message .staff .staff-member .img {
+  margin: 0 auto 30px;
+}
+#message .staff .staff-member .comment-title {
+  margin: 0 auto 10px;
+  font-weight: 600;
+  max-width: 80%;
+}
+#message .staff .staff-member .comment {
+  margin: 0 auto 10px;
+  max-width: 80%;
+}
+#message .staff .staff-member .img img {
+  height: 300px;
+}
+
+
 #message .company-info .text {
   line-height: 30px;
 }
