@@ -716,6 +716,10 @@ message
   line-height: 30px;
 }
 
+#message .staff-member .fa-screwdriver-wrench {
+  color: var(--accent);
+}
+
 
 /* --------------------------------
 faq
