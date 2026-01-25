@@ -58,7 +58,6 @@ li {
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 80px;
-  
 }
 .sec-title .en {
   font-family: Arial, Helvetica, sans-serif;
@@ -89,7 +88,6 @@ header
   left: 0;
   z-index: 10;
   background-color: rgba(255, 255, 255, 0.75);
-  
 }
 #header .wrapper-03 {
   height: 80px;
@@ -124,10 +122,6 @@ header
 #nav .menu .item {
   color: var(--text);
 }
-
-
-
-
 #nav .menu .item.no-border {
   border-right: 0
 }
@@ -215,15 +209,12 @@ header
   height: 15px;
   display: inline-block;
 }
-
-
 #fixed-nav-sp {
   display: none;
 }
 #fixed-menu-sp {
   display: none;
 }
-
 
 /* --------------------------------
 animation
@@ -296,7 +287,6 @@ mainvisual
   text-shadow: 0px 0px 10px #000;
 }
 
-
 /* --------------------------------
 nav-menu
 -------------------------------- */
@@ -313,7 +303,6 @@ nav-menu
   background-color: #fff;
   border-radius: 5px;
   width: 24%;
-  
 }
 #nav-menu .flex .item .item-title {
   background-color: #ffff00;
@@ -325,7 +314,6 @@ nav-menu
 #nav-menu .flex .item .text-link {
   padding: 10px;
 }
-
 #self-introduction {
   margin-bottom: 20px;
   background-color: #fff;
@@ -441,7 +429,6 @@ area
   gap: 0 6%;
 }
 
-
 /* --------------------------------
 service-top
 -------------------------------- */
@@ -466,9 +453,7 @@ service-top
   font-size: 1.5rem;
   font-weight: normal;
   margin-top: 10px;
-
 }
-
 
 /* --------------------------------
 service
@@ -542,7 +527,6 @@ case
   font-size: 1.2rem;
 }
 
-
 /* --------------------------------
 price
 -------------------------------- */
@@ -575,7 +559,6 @@ flow
   font-size: 1.2rem;
 }
 
-
 /* --------------------------------
 maker
 -------------------------------- */
@@ -592,11 +575,9 @@ maker
   width: 250px;
 }
 
-
 /* --------------------------------
 business-supprt
 -------------------------------- */
-
 #business-supprt .it {
   margin-bottom: 60px;
 }
@@ -653,7 +634,6 @@ company-top
   font-size: 1.5rem;
   font-weight: normal;
   margin-top: 10px;
-
 }
 
 /* --------------------------------
@@ -693,7 +673,6 @@ message
 #message .staff .flex {
   display: flex;
   gap: 0 3%;
-
 }
 #message .staff .staff-member {
   width: 50%;
@@ -710,16 +689,12 @@ message
   margin: 0 auto 10px;
   max-width: 80%;
 }
-
-
 #message .company-info .text {
   line-height: 30px;
 }
-
 #message .staff-member .fa-screwdriver-wrench {
   color: var(--accent);
 }
-
 
 /* --------------------------------
 faq
@@ -804,7 +779,6 @@ privacy-top
   font-size: 1.5rem;
   font-weight: normal;
   margin-top: 10px;
-
 }
 
 /* --------------------------------
@@ -865,23 +839,10 @@ footer
   text-align: center; 
 }
 
-
-
-
-
-
 /*-------------------------------------------
 TB
 -------------------------------------------*/
 @media screen and (max-width: 1200px) {
-  /* html {
-    font-size: 0.7407vw;
-  } */
-  /* html {
-    font-size: 1.2vw;
-  } */
-
-
   /* --------------------------------
   [TB]header
   -------------------------------- */
@@ -890,7 +851,6 @@ TB
     height: 60px;
   }
   #header .wrapper-03 {
-    /* padding: 0 40px; */
     height: 60px;
   }
   #header .site-title {
@@ -924,7 +884,6 @@ TB
     position: absolute;
     left: 0px;
     transition: 0.5s;
-    /* transform: translateX(-50%); */
     transition: all .7s cubic-bezier(.19,1,.22,1);
     transition-property: transform, opacity, background-color, width, top;
     transform-origin: right bottom; 
@@ -966,22 +925,6 @@ TB
     width: 35px;
     background-color: var(--base);
   }
-
-
-
-
-
-  /* #header.open .hamburger span:nth-child(1) {
-    transform: translateY(10px) rotate(-315deg);
-    background-color: var(--base);
-  }
-  #header.open .hamburger span:nth-child(2) {
-    opacity: 0;
-  }
-  #header.open .hamburger span:nth-child(3) {
-    transform: translateY(-10px) rotate(315deg);
-    background-color: var(--base);
-  } */
   #menu-sp {
     display: block;
     width: 100%;
@@ -1186,22 +1129,18 @@ TB
     bottom: 6%;
   }
 
-
   /* --------------------------------
   [TB]strength
   -------------------------------- */
   #strength .flex .text {
     padding-left: 30px;
-    
   }
   /* --------------------------------
-  case
+  [TB]case
   -------------------------------- */
-
   #case .list .item .img {
     width: 95%;
   }
-
 
   /* --------------------------------
   [TB]footer
@@ -1210,17 +1149,12 @@ TB
   #footer .flex .info {
     width: 35%;
   }
-
-
 }
 
 /*-------------------------------------------
 SP
 -------------------------------------------*/
 @media screen and (max-width: 768px) {
-  /* html {
-    font-size: 2.6667vw;
-  } */
   .wrapper-02  {
     padding: 0 20px;
   }
@@ -1236,13 +1170,11 @@ SP
   .sec-title {
     font-size: 1.5rem;
     margin-bottom: 50px;
-    
   }
   .sec-title .en {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
   }
-	
 	.loading__logo {
     opacity: 0;
     animation: logo_fade 2s 0.5s forwards;
@@ -1264,12 +1196,6 @@ SP
   #header .wrapper {
     padding: 0 16px;
   }
-  /* #header .hamburger {
-    right: 20px;
-  }
-  #js-fixed-header .hamburger {
-    right: 20px;
-  } */
 
   /* --------------------------------
   [SP]スクロールダウン
@@ -1307,7 +1233,6 @@ SP
   #top-pr .link .btn {
     padding: 15px 80px;
     font-size: 1.2rem;
-
   }
   #top-pr .link .btn::after {
     top: 23px;
@@ -1323,11 +1248,9 @@ SP
     font-size: 0.9rem;
   }
 
-
   /* --------------------------------
   [SP]strength
   -------------------------------- */
-
   #strength .flex {
     flex-direction: column;
   }
@@ -1353,8 +1276,6 @@ SP
     flex-direction: column;
   }
 
-
-
   /* --------------------------------
   [SP]service-top
   -------------------------------- */
@@ -1366,7 +1287,6 @@ SP
     bottom: 10%;
     left: 40px;
   }
-
 
   /* --------------------------------
   [SP]service
@@ -1388,8 +1308,6 @@ SP
     width: 100%;
   }
 
-
-
   /* --------------------------------
   [SP]case
   -------------------------------- */
@@ -1402,11 +1320,9 @@ SP
     width: 100%;
   }
 
-
   /* --------------------------------
   [SP]price
   -------------------------------- */
-
   #price .flex {
     flex-direction: column;
     gap: 0 6%;
@@ -1420,7 +1336,6 @@ SP
     flex-direction: column;
     margin-left: 30px;
   }
-
 
   /* --------------------------------
   [SP]company-top
@@ -1437,7 +1352,6 @@ SP
   /* --------------------------------
   [SP]message
   -------------------------------- */
-
   #message .flex {
     flex-direction: column;
     height: auto;
@@ -1454,7 +1368,6 @@ SP
   }
   #message .staff .flex {
     gap: 45px 0%;
-
   }
   #message .staff .staff-member .img {
     width: 70%;
@@ -1510,6 +1423,5 @@ SP
   #footer .flex .info {
     width: 100%;
   }
-
 }
 
