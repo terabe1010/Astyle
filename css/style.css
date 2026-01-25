@@ -779,6 +779,52 @@ faq
   border-right: 1px solid var(--text);
 }
 
+/* --------------------------------
+privacy-top
+-------------------------------- */
+#privacy-top {
+  height: 400px;
+  background-image: url(../img/osaka_01.png);
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+  margin-bottom: 60px;
+}
+#privacy-top .service-title {
+  font-size: 2rem;
+  position: absolute;
+  bottom: 20%;
+  left: 140px;
+  color: var(--base);
+  text-shadow: 0px 0px 10px #000;
+}
+#privacy-top .service-title .en {
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-top: 10px;
+
+}
+
+/* --------------------------------
+privacy
+-------------------------------- */
+#privacy {
+  margin-bottom: 80px;
+}
+#privacy .text {
+  margin-bottom: 20px;
+}
+#privacy .title {
+  margin-bottom: 20px;
+  padding-top: 20px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+#privacy ul {
+  margin-bottom: 20px;
+}
 
 /* --------------------------------
 footer
@@ -797,7 +843,7 @@ footer
 }
 #footer .flex .contact, 
 #footer .flex .info {
-  width: 20%;
+  width: 22%;
 }
 #footer .flex .title {
   font-size: 1.5rem;
@@ -805,6 +851,12 @@ footer
   font-weight: 500;
 }
 #footer .flex .contact .text a {
+  color: var(--base);
+}
+#footer .flex .info .text {
+  margin-bottom: 20px;
+}
+#footer .flex .info .privacy a {
   color: var(--base);
 }
 #footer .copy {
@@ -1352,7 +1404,7 @@ SP
 
 
   /* --------------------------------
-  price
+  [SP]price
   -------------------------------- */
 
   #price .flex {
@@ -1362,7 +1414,7 @@ SP
   }
 
   /* --------------------------------
-  flow
+  [SP]flow
   -------------------------------- */
   #flow .flex {
     flex-direction: column;
@@ -1371,7 +1423,7 @@ SP
 
 
   /* --------------------------------
-  company-top
+  [SP]company-top
   -------------------------------- */
   #company-top {
     height: 300px;
@@ -1383,7 +1435,7 @@ SP
   }
 
   /* --------------------------------
-  message
+  [SP]message
   -------------------------------- */
 
   #message .flex {
@@ -1415,7 +1467,7 @@ SP
   }
 
   /* --------------------------------
-  faq
+  [SP]faq
   -------------------------------- */
   #faq .link .btn {
     padding: 15px 80px;
@@ -1424,8 +1476,27 @@ SP
     top: 27px;
   }
   #faq .box .title .qa {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-bottom: 15px;
+  }
+
+  /* --------------------------------
+  [SP]privacy-top
+  -------------------------------- */
+  #privacy-top {
+    height: 300px;
+  }
+  #privacy-top .service-title {
+    font-size: 1.5rem;
+    bottom: 10%;
+    left: 20px;
+  }
+
+  /* --------------------------------
+  privacy
+  -------------------------------- */
+  #privacy .title {
+    font-size: 1.1rem;
   }
 
   /* --------------------------------
