@@ -762,16 +762,16 @@ faq
   border: 1px solid var(--text);
 }
 #faq .link .btn::after {
-    content: "";
-    width: 14px;
-    height: 14px;
-    border-top: 1px solid var(--base);
-    border-right: 1px solid var(--base);
-    position: absolute;
-    top: 31px;
-    right: 56px;
-    transform: rotate(45deg);
-    transition: ease 0.3s;
+  content: "";
+  width: 14px;
+  height: 14px;
+  border-top: 1px solid var(--base);
+  border-right: 1px solid var(--base);
+  position: absolute;
+  top: 31px;
+  right: 56px;
+  transform: rotate(45deg);
+  transition: ease 0.3s;
 }
 #faq .link .btn:hover::after {
   right: 30px;
@@ -784,7 +784,7 @@ privacy-top
 -------------------------------- */
 #privacy-top {
   height: 400px;
-  background-image: url(../img/osaka_01.png);
+  background-image: url(../img/sky_01.jpg);
   background-size: cover;
   background-position: center top;
   position: relative;
