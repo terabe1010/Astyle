@@ -116,7 +116,6 @@ header
   position: relative;
   display: inline-block;
   line-height: 20px;
-  letter-spacing: .1em;
   font-size: 1.2rem;
 }
 #nav .menu .item {
@@ -186,7 +185,6 @@ header
   line-height: 20px;
   font-size: 0.95rem;
   font-weight: 400;
-  letter-spacing: .1em;
   color: var(--text);
   font-size: 1.2rem;
 }
